@@ -1,0 +1,93 @@
+body{
+	background-image: url(../images/stardust.png);
+	font-family: 'Mandali', sans-serif;
+	background-position: fixed;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+h1,h2{
+	margin: 0;
+	padding: 0;
+	line-height: 36px;
+}
+.container{
+	margin-right: auto;
+	margin-left: auto;
+	background-color: white;
+	border-radius: 8px;
+	box-shadow: 10px 10px 0px rgba(0,0,0,.5);
+	height: 100%;
+	max-width: 1000px;
+	width: 70%;
+	padding-top: 20px;
+	padding-left: 50px;
+	padding-bottom: 20px;
+}
+.figures{
+	padding-top: 15px;
+}
+ul{
+	list-style-type: decimal;
+}
+li{
+	font-size: 18px;
+}
+h1{
+	font-size: 30px;
+}
+h2{
+	font-size: 24px;
+}
+.text{
+	padding-top: 10px;
+	margin-top: 10px;
+}
+img{
+	width: 30%;
+	min-width: 200px;
+	height: auto;
+	float: left;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+#lmt{
+	max-height: 125%;
+	width: 33%;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+#photo{
+	height: 100%;
+	width: 33%;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+#earth{
+	height: 100%;
+	width: 33%;
+	float: left;	
+	margin: 0;
+	padding: 0;
+}
+#colors{
+	height: 100%;
+	width: 100%;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+a{
+	font-family: 'Codystar', cursive;
+	text-decoration: none;
+	color: black;
+	font-size: 24px;
+}
+a:hover{
+	color: blue;
+	}
+p{
+	width: 87%;
+}

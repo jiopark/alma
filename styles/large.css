@@ -1,0 +1,428 @@
+@font-face {
+    font-family: 'uppereastsideregular';
+    src: url(fonts/'UpperEastSide-webfont.eot');
+    src: url(fonts/'UpperEastSide-webfont.eot?#iefix') format('embedded-opentype'),
+    url(fonts/'UpperEastSide-webfont.woff2') format('woff2'),
+    url(fonts/'UpperEastSide-webfont.woff') format('woff'),
+    url(fonts/'UpperEastSide-webfont.ttf') format('truetype'),
+    url(fonts/'UpperEastSide-webfont.svg#uppereastsideregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+	margin:0;
+	padding: 0;
+    background-color: rgb(24, 24, 29);
+}
+header{
+	width: 100%;
+	height: 100vh;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+/*    overflow: hidden;*/
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url(../images/front.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover; 
+}
+h1{ 
+    text-align: center;
+    font-family: 'Yellowtail', cursive; 
+    font-size: 3em; 
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+    padding-top: 3em;
+}
+h2{
+    font-size: 5em;
+    text-align: center;
+    font-family: 'uppereastsideregular', sans-serif;
+    font-weight: 700;
+    color: #DAA520;
+    margin: 0;
+    padding: 0;
+    text-shadow: 0 0 10px #000000;  
+}
+h3{
+    font-size: 3em;
+    text-align: center;
+    font-family: 'uppereastsideregular', sans-serif;
+    font-weight: 700;
+    color: #DAA520;
+    margin: 0;
+    padding: 0;
+    text-shadow: 0 0 20px #000000;  
+}
+h4{
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Yellowtail';
+    color: white;
+    background-color: #CE422E;
+    width: 100px;
+    box-shadow: 0px 2px 4px #191817;
+    border-radius: 4px;
+    position: absolute;
+    bottom: 3em;
+    margin-right: auto;
+    margin-left: auto;
+    left: 0;
+    right: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: #FEE161;
+}
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    z-index: 999;
+}
+nav{
+    list-style-type: none;
+    text-decoration: none;
+    background-color: #AA2F22;
+    margin: 0;
+    overflow: hidden;
+    height: 1.3em;
+    padding-top: 1.25em;
+    padding-bottom: 1em;
+    }
+ul{
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+}
+li{
+    padding-right: 1em;
+    color: white;
+    font-family: 'Puritan', sans-serif;
+    font-size: 1.2em;
+    position: relative;
+    width: 100%;
+    display: inline;
+    }
+#two{
+    padding: 0;
+    margin-top: 0;
+    padding-top: 0;
+    background-color: #ECC4C5;
+    font-size: 1.7em;
+    font-family: 'Puritan', sans-serif;
+    text-align: center;
+    background-image: url(../images/atacama-desert.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-size: cover; 
+    }
+#two p{
+    padding-top: 2.5em;
+    margin-left: auto;
+    margin-right: auto;
+    color: #474C51;
+    width: 400px;
+    height: 200px;
+}
+#button{
+	position: relative;
+    padding: 0;
+    margin: 0;
+}
+figure #arrow{
+    width: 162px;
+    height: auto;
+}
+#arrow{
+  animation: arrowFrames linear 2s;
+  animation-iteration-count: 5;
+  transform-origin: 50% 50%;
+  -webkit-animation: arrowFrames linear 2s;
+  -webkit-animation-iteration-count: 5;
+  -webkit-transform-origin: 50% 50%;
+  -moz-animation: arrowFrames linear 2s;
+  -moz-animation-iteration-count: 5;
+  -moz-transform-origin: 50% 50%;
+  -o-animation: arrowFrames linear 2s;
+  -o-animation-iteration-count: 5;
+  -o-transform-origin: 50% 50%;
+  -ms-animation: arrowFrames linear 2s;
+  -ms-animation-iteration-count: 5;
+  -ms-transform-origin: 50% 50%;
+}
+
+@keyframes arrowFrames{
+  0% {
+    transform:  translate(0px,0px)  ;
+  }
+  24% {
+    transform:  translate(0px,30px)  ;
+  }
+  50% {
+    transform:  translate(0px,0px)  ;
+  }
+  76% {
+    transform:  translate(0px,30px)  ;
+  }
+  100% {
+    transform:  translate(0px,0px)  ;
+  }
+}
+
+@-moz-keyframes arrowFrames{
+  0% {
+    -moz-transform:  translate(0px,0px)  ;
+  }
+  24% {
+    -moz-transform:  translate(0px,30px)  ;
+  }
+  50% {
+    -moz-transform:  translate(0px,0px)  ;
+  }
+  76% {
+    -moz-transform:  translate(0px,30px)  ;
+  }
+  100% {
+    -moz-transform:  translate(0px,0px)  ;
+  }
+}
+
+@-webkit-keyframes arrowFrames {
+  0% {
+    -webkit-transform:  translate(0px,0px)  ;
+  }
+  24% {
+    -webkit-transform:  translate(0px,30px)  ;
+  }
+  50% {
+    -webkit-transform:  translate(0px,0px)  ;
+  }
+  76% {
+    -webkit-transform:  translate(0px,30px)  ;
+  }
+  100% {
+    -webkit-transform:  translate(0px,0px)  ;
+  }
+}
+
+@-o-keyframes arrowFrames {
+  0% {
+    -o-transform:  translate(0px,0px)  ;
+  }
+  24% {
+    -o-transform:  translate(0px,30px)  ;
+  }
+  50% {
+    -o-transform:  translate(0px,0px)  ;
+  }
+  76% {
+    -o-transform:  translate(0px,30px)  ;
+  }
+  100% {
+    -o-transform:  translate(0px,0px)  ;
+  }
+}
+
+@-ms-keyframes arrowFrames {
+  0% {
+    -ms-transform:  translate(0px,0px)  ;
+  }
+  24% {
+    -ms-transform:  translate(0px,30px)  ;
+  }
+  50% {
+    -ms-transform:  translate(0px,0px)  ;
+  }
+  76% {
+    -ms-transform:  translate(0px,30px)  ;
+  }
+  100% {
+    -ms-transform:  translate(0px,0px)  ;
+  }
+}
+#three{
+    background-color: #F1C1AD;
+    padding: 0;
+    margin-top: 0;
+    padding-top: 5%;
+    font-size: 1em;
+    font-family: 'Puritan', sans-serif;
+    text-align: center;
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+    margin-right: auto;
+    margin-left: auto;
+    left: 0;
+    right: 0;
+}
+#three p{
+    padding-bottom: 1em;
+    width: 500px;
+    font-size: 1.2em;
+    height: 600px;
+    float: left;
+    margin-top: 0;
+    padding: 1em;
+    text-align: left;
+    margin-right: 0;
+    padding-right: 0
+}
+#altitude{
+    background-image: url(../images/altitude.gif);
+    background-repeat: no-repeat;
+    float: left;
+    width: 35%;
+    min-height: 500px;
+    margin: 0;
+    padding: 0;
+    background-position: 20% 20%;
+}
+#four{
+    background-color: #F1C1AD;
+    padding: 0;
+    margin-top: 0;
+    padding-top: 5%;
+    font-size: 1em;
+    font-family: 'Puritan', sans-serif;
+    text-align: center;
+    width: 100%;
+    height: 90vh;
+    overflow: auto;
+    margin-right: auto;
+    margin-left: auto;
+    left: 0;
+    right: 0;
+    background-image: url(../images/alma.gif);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover; 
+}
+#four p{
+    font-size: 1.25em;
+    margin-right: auto;
+    margin-left: auto;
+    left: 0;
+    right: 0;
+    text-align: left;
+    max-width: 900px;
+    min-width: 300px;
+    position: absolute;
+    color: #262525;
+    padding-top: 3%;
+       margin-right: auto;
+    margin-left: auto;
+    left: 0;
+    right: 0;
+}
+#small{
+    font-size: .8em;
+    width: 100%;
+    height: auto;
+    float: left;
+    text-align: left;
+    padding: 2em;
+}
+#facts{
+    padding:0;
+    margin: 0;
+    top: 0;
+    padding-top: 0;
+    margin-top: 0;
+}
+#four .next{
+    padding-top: 8%;
+    float: right;  
+}
+#five{
+    background-color: #F1C1AD;
+    padding: 0;
+    margin-top: 0;
+    padding-top: 5%;
+    font-size: 1em;
+    font-family: 'Puritan', sans-serif;
+    text-align: center;
+    width: 100%;
+    height: 90vh;
+    margin-right: auto;
+    margin-left: auto;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-image: url(../images/closeup.gif);
+    background-repeat: no-repeat;
+    color: white;
+    background-size: cover;
+}
+#five p{
+    min-width: 300px;
+    height: 100px;
+    float: left;
+    text-align: left;
+    padding: 2em;
+    max-width: 500px;
+}
+#video{
+    position: relative;
+    float: left;
+    height: auto;
+    position: relative;
+    padding: 2em;
+}
+#five #container{
+    height: 500px;
+    width: 560px;
+}
+.nextc{
+    float: left; 
+    padding: 0;
+    margin: 0;
+}
+#conclusion{
+    background-color: black;
+    padding: 0;
+    margin-top: 0;
+    padding-top: 5%;
+    font-size: 1em;
+    font-family: 'Puritan', sans-serif;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    margin-right: auto;
+    margin-left: auto;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-image: url(../images/space.gif);
+    background-repeat: no-repeat;
+    background-image-size: 100%;
+    color: white;
+}
+#conclusion p{
+    font-size: 1.5em;
+    text-align: left;
+    max-width: 500px;
+    min-width: 300px;
+    padding: 1em;
+    margin-left: 1em;
+}
+#movie{
+    width: auto;
+    height: 100vh;
+}
